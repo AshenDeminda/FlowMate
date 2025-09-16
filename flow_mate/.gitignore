@@ -1,0 +1,149 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.flutter-plugins
+.pub-cache/
+.pub/
+/build/
+/coverage/
+.packages
+.metadata
+
+# Dart/Flutter crash logs
+flutter_*.log
+dart_*.log
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Android specific
+android/local.properties
+android/.gradle/
+android/**/captures/
+android/**/outputs/
+android/**/generated/
+android/**/intermediates/
+android/**/release/
+android/**/debug/
+android/**/profile/
+# Keystores and signing configs (sensitive)
+**/*.jks
+**/*.keystore
+**/key.properties
+# Firebase (optional to commit; often treated as secret)
+**/google-services.json
+
+# iOS/macOS specific
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Runner.xcworkspace/
+ios/**/DerivedData/
+ios/**/build/
+ios/**/xcuserdata/
+ios/**/.generated/
+ios/**/*.mode1v3
+ios/**/*.mode2v3
+ios/**/*.perspectivev3
+ios/**/*.xccheckout
+ios/**/*.moved-aside
+ios/**/*.xcuserstate
+# iOS Firebase (optional to commit; often treated as secret)
+**/GoogleService-Info.plist
+# macOS
+macos/Pods/
+macos/**/DerivedData/
+macos/**/xcuserdata/
+
+# Windows specific
+windows/**/x64/
+windows/**/x86/
+windows/**/arm64/
+windows/**/Debug/
+windows/**/Release/
+windows/**/GeneratedFiles/
+windows/**/.vs/
+
+# Linux specific
+linux/**/build/
+
+# Web specific
+web/.dart_tool/
+
+# VS / Visual Studio
+.vs/
+
+# Env/config & secrets
+.env
+.env.*
+**/*.pem
+**/*.p12
+**/*.pfx
+**/*.cer
+**/*.crt
+**/*.key
+
+# Archives & binaries
+*.ipa
+*.apk
+*.aab
+*.app
+*.dmg
+*.exe
+*.msi
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.swp
+*.swo
+*.swn
+*.swn
+*.DS_Store
+Thumbs.db
